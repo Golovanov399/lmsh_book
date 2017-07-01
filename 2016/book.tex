@@ -1,0 +1,219 @@
+\documentclass[12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{jeolm}
+\usepackage{jeolm-tourn-limited}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[margin=1in]{geometry}
+\pagestyle{empty}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% \usepackage{pgfpages}
+\usepackage{epigraph}
+%\pgfpagesuselayout{2 on 1}[a4paper,landscape]
+
+%\def\jeolmleague{7 класс}
+
+\makeatletter
+
+\newcommand{\l@abcd}[2]{\hbox to\textwidth{#1 \dotfill\textbf{ #2}}}
+
+\begin{document}
+
+\begin{center}
+	\Huge{\bf 32-я Летняя Многопредметная Школа}\\
+	\Large{\bf 7 класс}\\ \vspace{.3cm}
+	\includegraphics[width=\textwidth]{logo}
+	\begin{multicols}{2}
+		Александр Голованов \\
+		Алексей Ильин \\
+		Вера Катякова \\
+		Николай Крохмаль \\
+		Леонид Попов \\
+		Анна Рогозина \\
+		Вадим Русаков \\
+		Полина Святокум \\
+	\end{multicols}
+\end{center}
+
+\newpage
+
+\parindent=2em
+
+\Large{\bf Вместо предисловия}
+\normalsize
+
+Доброго времени суток, неведомый читатель!
+
+Если Вы держите эту книгу в руках, или пролистываете её электронный вариант, значит, Вам стало интересно, как проходила 32 смена Кировской Летней Многопредметной Школы 2016 у самой многочисленной её параллели Математиков 7 класса, а точнее, у её непрофи-групп. Пытаетесь ли  Вы вспомнить, какой она была, или просто штудируете материал в поисках интересных задачек, мы рады, что наше творчество привлекло Ваше внимание. Здесь вы можете найти все задачки, которые пытались решить наши ученики на протяжении всей смены.
+
+Основную сложность организации учебного процесса составляло количество ребят в непрофи группах, и во всей параллели в целом (74 человека всё-таки). В связи с этим, в некоторых темах задач довольно много, так  как у некоторых листочков есть несколько вариаций, зависящих от уровня учеников, коим данный листочек выдавался. В книжке представлено объединение всех этих версий воедино.
+
+Но раз Вы читаете это, значит мы (преподаватели М7) преодолели все трудности и сумели научить детей чему-то новому.
+
+Теперь же, нам хотелось бы обратиться к тем, кто вдохновил нас на создание этой книжки.
+
+Дорогие, любимые и обожаемые дети М7! Нам было очень приятно провести с вами эти 25 ярких дней. Спасибо вам за оригинальность мыслей, любознательность, невероятную заинтересованность в жизни лагеря и неподдельную тягу к знаниям! Мы надеемся, что ещё не раз увидимся с вами меж Вишкльских сосен. Удачи на грядущих олимпиадах, и до скорых встреч.
+
+\parindent=0em
+
+
+\begin{flushright}
+\vspace{1cm}
+
+С любовью,
+
+преподаватели М7
+
+\vfill
+
+Ищите нас тут: \url{https://vk.com/lmsh20152019}.
+\end{flushright}
+
+\tableofcontents\newpage
+
+\renewcommand{\@oddhead}{\vbox{\hbox to \textwidth{{\raisebox{1.8mm}{\strut{\small\bfseries Кировская ЛМШ 2016, 7 класс}}\hfil\raisebox{1.8mm}{\strut\bfseries\thepage}}}\hrule}}
+\renewcommand{\@evenhead}{\vbox{\hbox to \textwidth{{\raisebox{1.8mm}{\strut\bfseries\thepage}\hfil\raisebox{1.8mm}{\strut{\small\bfseries Кировская ЛМШ 2016, 7 класс}}}}\hrule}}
+
+
+\addcontentsline{toc}{abcd}{\bf Делимость. 4 июля}
+\input{0401_div.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Вступительная олимпиада. 4 июля}
+\input{0402_olymp.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Геометрические неравенства. 5 июля}
+\input{0501_geom.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Сравнения. 5 июля}
+\input{0502_mod.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Инвариант. 6 июля}
+\input{0601_invar.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Двудольные графы. 6 июля}
+\input{0602_bipar.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Площади. 7 июля}
+\input{0701_square.tex}
+\resetproblem
+\clearpage
+\addcontentsline{toc}{abcd}{\bf Классическая комбинаторика. 7 июля}
+\input{0702_comb.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf ГМТ. 9 июля}
+\input{0901_gmt.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Индукция. 9 июля}
+\input{0902_ind.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Деревья. 10 июля}
+\input{1001_trees.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Малая теорема Ферма. 10 июля}
+\input{1002_mtf.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Четвёртый признак <<равенства>> треугольников. 11 июля}
+\input{1101_geom.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Треугольник Паскаля. 11 июля}
+\input{1102_pascal.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Матбой-междусобой. 12 июля}
+\input{1201_matboi.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Индукция-2. 14 июля}
+\input{1401_ind12.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Симметрия. 14 июля}
+\input{1402_symm.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Алгоритм Евклида. 15 июля}
+\input{1501_nod.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Изоморфизм комбинаторных задач. 15 июля}
+\input{1502_comb666_hard.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Перекладывание отрезков. 16 июля}
+\input{1601_geom.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Линейное представление НОД. 16 июля}
+\input{1602_nod.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Дискретная непрерывность. 17 июля}
+\input{1701_discr.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Точки пересечения биссектрис. 19 июля}
+\input{1901_bisec.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Индукция в графах. 19 июля}
+\input{1902_grind.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Шары и перегородки. 20 июля}
+\input{2001_balls.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Точка пересечения высот. 20 июля}
+\input{2002_geom.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Теорема Вильсона. 21 июля}
+\input{2101_wilson.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Геометрический разнобой. 21 июля}
+\input{2102_geom.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Полуинвариант. 22 июля}
+\input{2201_semiinv.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Разнобой. 22 июля}
+\input{2202_hidden.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Заключительная олимпиада. 24 июля}
+\input{2401_zakolymp.tex}
+\resetproblem
+\newpage
+\addcontentsline{toc}{abcd}{\bf Программа теоретического зачета.}
+\input{2402_theory.tex}
+\resetproblem
+\newpage
+\end{document}

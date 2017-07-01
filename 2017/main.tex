@@ -1,0 +1,55 @@
+\documentclass[a5paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{jeolm}
+\usepackage{jeolm-tourn-limited}
+\usepackage{parskip}
+\usepackage{epigraph}
+\pagestyle{empty}
+
+\usepackage[margin=2em]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+\usepackage{pgfpages}
+
+%\pgfpagesuselayout{2 on 1}[a4paper,landscape]
+
+% Перенос знаков в формулах (по Львовскому)
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
+{\hbox{$\mathsurround=0pt #1$}}{}}
+
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+
+\def\jeolmevent{Кировская летняя многопредметная школа}
+\def\jeolmcity{Вишкиль}
+\def\jeolmdaterange{3--28 июля 2017 года.}
+
+\begin{document}
+
+\jeolmheader
+\input{simple/2017_07_05_alg_parabola.tex}
+\resetproblem
+\newpage
+
+%\jeolmheader
+%\input{simple/2017_07_06_neq_numbers.tex}
+%\input{simple/2017_07_05_geom_schet_otrezkov.tex}
+%\resetproblem
+%\newpage
+
+%\jeolmheader
+%\input{simple/2017_07_06_neq_numbers.tex}
+%\input{simple/2017_07_07_geom_orto_i_9tochek.tex}
+%\resetproblem
+%\newpage
+\end{document}
+
